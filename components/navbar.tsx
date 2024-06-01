@@ -8,7 +8,7 @@ const chakra = Chakra_Petch({ weight: ["400","600"], style: "normal", subsets: [
 export default function Navbar() {
     return (
       <>
-        <div className="flex justify-between p-5">
+        <div className="flex justify-between p-5 bg-gradient-to-t from-white/0 to-white">
           <div className="flex items-center">
             <Image
               src="/final_logo_GC_light 4.png"

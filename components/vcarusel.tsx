@@ -4,7 +4,7 @@ import CaruselElement from './caruselelement'
 export default function VCarusel() {
     return (
       <>
-        <div className="flex-col -ml-1/2">
+        <div className="flex-col">
           
           {/* <CaruselElement 
             content="COMMUNITY BUILDING & DEVELOPMENT"
