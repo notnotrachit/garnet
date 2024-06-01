@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/navbar";
 import VCarusel from "@/components/vcarusel";
 import Gridbg from "@/components/gridbg";
+import Balls from "@/components/balls";
 import { Chakra_Petch } from "next/font/google";
 
 const chakra_petch = Chakra_Petch({
@@ -14,6 +15,7 @@ export default function Home() {
     <div className={chakra_petch.className}>
       <Gridbg />
       <Navbar />
+      <Balls />
       <div className=" mt-52 flex justify-evenly space-x-72">
         <VCarusel />
         <div className="text-black font-semibold text-xl">
@@ -24,6 +26,8 @@ export default function Home() {
             <li className="pl-16 my-1">Captivating designs and branding</li>
           </ul>
         </div>
+      </div>
+      <div>
       </div>
       <div className="absolute right-0 top-1/4">
         <svg
