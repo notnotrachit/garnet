@@ -61,6 +61,15 @@ export default function Home() {
           </defs>
         </svg>
       </div>
+      <div className="uppercase text-black mt-24 font-bold ml-16 text-xl">
+        <div>The only growth focused</div>
+        <div className="bg-gradient-to-b from-[#340272] from-40% via-[#714E9C] via-58%  to-[#C1B2D4] bg-clip-text text-5xl font-bold text-transparent w-[30rem] text-right">
+          WEB 3 MARKETING
+          <br />
+          AGENCY
+        </div>
+        <div className="w-[36rem] text-center mt-24 ml-96 text-2xl">Your go-to specialist<br/>in web3 marketing strategies</div>
+      </div>
     </div>
   );
 }
