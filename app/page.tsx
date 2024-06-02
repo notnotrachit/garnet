@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import VCarusel from "@/components/vcarusel";
 import Gridbg from "@/components/gridbg";
 import Balls from "@/components/balls";
+import Testimonial from "@/components/testimonials";
 import { Chakra_Petch } from "next/font/google";
 
 const chakra_petch = Chakra_Petch({
@@ -27,8 +28,7 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      <div>
-      </div>
+      <div></div>
       <div className="absolute right-0 top-1/4">
         <svg
           width="760"
@@ -72,7 +72,23 @@ export default function Home() {
           <br />
           AGENCY
         </div>
-        <div className="w-[36rem] text-center mt-24 ml-96 text-2xl">Your go-to specialist<br/>in web3 marketing strategies</div>
+        <div className="w-[36rem] text-center mt-24 ml-96 text-2xl">
+          Your go-to specialist
+          <br />
+          in web3 marketing strategies
+        </div>
+      </div>
+      <div className="flex">
+          <div className="mt-16 ml-24 relative py-4 px-8 text-black text-5xl font-bold text-fill-transparent text-stroke-black text-stroke-2 tracking-[0.7rem] [text-shadow:_5px_15px_10px_rgb(0_0_0_/_50%)]">
+            TES<span className="text-fill-black">TIMON</span>IAL
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="absolute top-0 right-0 border-t-4 border-r-4 border-black w-8 h-8 rounded-tr-md"></div>
+              <div className="absolute bottom-0 left-0 border-b-4 border-l-4 border-black w-8 h-8 rounded-bl-md"></div>
+            </div>
+          </div>
+      </div>
+      <div className="my-36">
+        <Testimonial />
       </div>
     </div>
   );
