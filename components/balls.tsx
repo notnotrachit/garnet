@@ -1,8 +1,14 @@
+"use client";
+
 import Image from "next/image";
+import { Providers } from "@/app/providers";
+import { Parallax } from "react-scroll-parallax";
 
 export default function Balls(){
     return (
       <>
+      <Providers>
+        <Parallax speed={30}>
         <Image
           src="/ball.svg"
           alt="ball"
@@ -10,6 +16,8 @@ export default function Balls(){
           height={200}
           className="absolute top-72 -left-24"
         />
+        </Parallax>
+        <Parallax speed={10}>
         <Image
           src="/ball.svg"
           alt="bg-1"
@@ -17,6 +25,7 @@ export default function Balls(){
           height={100}
           className="absolute top-32 left-56"
         />
+        </Parallax>
         <Image
           src="/ball.svg"
           alt="bg-1"
@@ -59,6 +68,7 @@ export default function Balls(){
           height={130}
           className="absolute top-[24rem] right-28"
         />
+        </Providers>
       </>
     );
 }

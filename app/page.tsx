@@ -17,7 +17,7 @@ export default function Home() {
       <Gridbg />
       <Navbar />
       <Balls />
-      <div className=" mt-52 flex justify-evenly space-x-72">
+      <div className=" mt-52 flex justify-between space-x-72 mx-64">
         <VCarusel />
         <div className="text-black font-semibold text-xl">
           <ul className="list-disc bg-gradient-to-r from-white/80 to-white">
