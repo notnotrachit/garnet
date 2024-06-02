@@ -4,6 +4,7 @@ import VCarusel from "@/components/vcarusel";
 import Gridbg from "@/components/gridbg";
 import Balls from "@/components/balls";
 import Testimonial from "@/components/testimonials";
+import Explore from "@/components/explore";
 import { Chakra_Petch } from "next/font/google";
 
 const chakra_petch = Chakra_Petch({
@@ -90,6 +91,8 @@ export default function Home() {
       <div className="my-36">
         <Testimonial />
       </div>
+
+      <div className="my-10"><Explore/></div>
     </div>
   );
 }
