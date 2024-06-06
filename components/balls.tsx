@@ -40,13 +40,15 @@ export default function Balls(){
           height={90}
           className="absolute top-28 right-[43%]"
         />
+        <Parallax speed={70}>
         <Image
           src="/ball.svg"
           alt="ball"
           width={150}
           height={150}
-          className="absolute top-[38rem] left-24"
+          className="absolute top-[68rem] left-24"
         />
+        </Parallax>
         <Image
           src="/ball.svg"
           alt="ball"
@@ -61,13 +63,15 @@ export default function Balls(){
           height={85}
           className="absolute top-36 right-72"
         />
+        <Parallax speed={40}>
         <Image
           src="/ball.svg"
           alt="ball"
           width={130}
           height={130}
-          className="absolute top-[24rem] right-28"
+          className="absolute top-[60rem] right-28"
         />
+        </Parallax>
         </Providers>
       </>
     );

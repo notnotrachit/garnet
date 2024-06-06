@@ -99,6 +99,52 @@ export default function Home() {
       <div>
         <Experts />
       </div>
+      <div className="bg-white">
+        <div className="py-10 flex justify-between mx-16 text-black text-3xl bg-white">
+          <div>
+            <Image
+              src={"/final_logo_GC_light 4.png"}
+              height={400}
+              width={400}
+              alt="logo"
+            />
+          </div>
+          <div>Subscribe to be in touch</div>
+        </div>
+        <div className="mt-10 mb-2 flex mx-16">
+          <input
+            type="text"
+            placeholder="Enter your email"
+            className=" text-black w-full ring-0 active:ring-0 focus:ring-0 focus:outline-none rounded-md text-2xl"
+          />
+          <div>
+            <button className=" bg-gradient-to-r from-[#8D77CC] to-[#B2F79C] via-[#7BD5FB] p-1 rounded-md group">
+              <div className="bg-white rounded-md px-8 py-2 text-black group-hover:bg-black group-hover:text-white transition-all ease-in-out font-bold">
+                Subscribe
+              </div>
+            </button>
+          </div>
+        </div>
+        <div className="w-screen h-1 px-16 mb-8 flex justify-center">
+          <div className="w-full h-full  border-t-2 border-black"></div>
+        </div>
+        <div className="bg-black w-full overflow-y-hidden">
+          <div className="flex justify-center">
+            <div className="relative text-[12rem] text-stroke-2 text-center font-bold text-stroke-white text-fill-transparent">
+              <div className="text-stroke-slate-800">
+                GARNET
+                <br />
+                CLUB
+              </div>
+              <div className="absolute top-12 left-0">
+                GARNET
+                <br />
+                CLUB
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
