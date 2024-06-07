@@ -89,11 +89,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="my-36">
+      <div className="my-36 h-96">
         <Testimonial />
       </div>
 
-      <div className="my-10">
+      <div className="my-28 py-28">
         <Explore />
       </div>
       <div>
