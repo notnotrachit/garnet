@@ -29,7 +29,9 @@ export default function Experts() {
         <div className="absolute bottom-40 left-1/2">
           <Image src="/ball.svg" height={200} width={200} alt="ball" />
         </div> */}
-      <ExpertCards />
+      <div className="">
+        <ExpertCards />
+      </div>
       <div className="w-full h-full flex">
         <div className="flex">
           <div className="mt-16 ml-24 relative py-4 px-8 text-white text-5xl font-bold text-stroke-2 tracking-[0.4rem] [text-shadow:_5px_15px_10px_rgb(0_0_0_/_50%)]">

@@ -46,13 +46,11 @@ export default function ExpertCards() {
     clearTimeout(autotimeout);
     if(current_expert == "auto"){
       current_expert = currentpos;
-      console.log("currentpos: ", currentpos);
       direction = "forward";
     }
     const current = document.getElementById(
       "expert_" + current_expert
     ) as HTMLElement;
-    console.log("current: ", current);
     let next_expert;
     // console.log("direction: ", direction)
     if (direction == "forward") {
@@ -71,7 +69,6 @@ export default function ExpertCards() {
     const next = document.getElementById(
       "expert_" + next_expert
     ) as HTMLElement;
-    console.log("next: ", next);
     current.classList.remove("z-10");
     current.classList.add("opacity-0");
     const current_textbox = current.querySelector("#text_box") as HTMLElement;
@@ -138,7 +135,6 @@ export default function ExpertCards() {
 
   function auto_change(current_expert:any = "auto") {
     setAutoTimeout(null);
-    console.log("auto change");
     const init_timeout = setTimeout(() => {
       changeExpert(current_expert, "forward");
     }, 2000);

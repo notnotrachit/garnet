@@ -7,10 +7,13 @@ import Testimonial from "@/components/testimonials";
 import Explore from "@/components/explore";
 import { Chakra_Petch } from "next/font/google";
 import Experts from "@/components/experts";
+import Innovation from "@/components/innovation";
+import { MdArrowOutward } from "react-icons/md";
+
 
 const chakra_petch = Chakra_Petch({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400","600", "700"],
 });
 
 export default function Home() {
@@ -99,6 +102,9 @@ export default function Home() {
       <div>
         <Experts />
       </div>
+      <div className="">
+        <Innovation />
+      </div>
       <div className="bg-white">
         <div className="py-10 flex justify-between mx-16 text-black text-3xl bg-white">
           <div>
@@ -140,6 +146,28 @@ export default function Home() {
                 GARNET
                 <br />
                 CLUB
+              </div>
+            </div>
+          </div>
+          <div className="px-48 flex text-xl mb-96 mt-16 uppercase gap-x-28 justify-between">
+            <div className="flex gap-x-28">
+              <div>Solutions</div>
+              <div>Quick Links</div>
+              <div>Legal</div>
+            </div>
+            <div>
+              <div className="">
+                <div className="">
+                  <span className="flex items-center gap-2">
+                    Telegram <MdArrowOutward />
+                  </span>
+                  <span className="flex items-center gap-2">
+                    LinkedIn <MdArrowOutward />
+                  </span>
+                  <span className="flex items-center gap-2">
+                    Twitter <MdArrowOutward />
+                  </span>
+                </div>
               </div>
             </div>
           </div>
