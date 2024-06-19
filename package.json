@@ -9,13 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.107.0",
+    "@react-three/fiber": "^8.16.8",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.4",
     "react-icons": "^5.2.1",
+    "react-model-viewer": "^0.6.1",
     "react-scroll-parallax": "^3.4.5",
-    "tailwindcss-text-fill-stroke": "^1.1.2"
+    "tailwindcss-text-fill-stroke": "^1.1.2",
+    "three": "^0.165.0"
   },
   "devDependencies": {
     "@types/node": "^20",

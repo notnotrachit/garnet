@@ -9,7 +9,7 @@ import { Chakra_Petch } from "next/font/google";
 import Experts from "@/components/experts";
 import Innovation from "@/components/innovation";
 import { MdArrowOutward } from "react-icons/md";
-
+import { RoboAModel } from "@/components/models/robo";
 
 const chakra_petch = Chakra_Petch({
   subsets: ["latin"],
@@ -35,40 +35,47 @@ export default function Home() {
       </div>
       <div></div>
       <div className="absolute right-0 top-1/4">
-        <svg
-          width="760"
-          height="910"
-          viewBox="0 0 760 910"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g filter="url(#filter0_f_130_58)">
-            <circle cx="455" cy="455" r="155" fill="#350372" />
-          </g>
-          <defs>
-            <filter
-              id="filter0_f_130_58"
-              x="0"
-              y="0"
-              width="910"
+        <div className="relative">
+          <div className="absolute top-0 right-0">
+            <svg
+              width="760"
               height="910"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              viewBox="0 0 760 910"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="BackgroundImageFix"
-                result="shape"
-              />
-              <feGaussianBlur
-                stdDeviation="150"
-                result="effect1_foregroundBlur_130_58"
-              />
-            </filter>
-          </defs>
-        </svg>
+              <g filter="url(#filter0_f_130_58)">
+                <circle cx="455" cy="455" r="155" fill="#350372" />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_130_58"
+                  x="0"
+                  y="0"
+                  width="910"
+                  height="910"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="150"
+                    result="effect1_foregroundBlur_130_58"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div className="fixed bottom-16 mt-72 right-0 h-96 w-96 flex z-20">
+            <RoboAModel />
+          </div>
+        </div>
       </div>
       <div className="uppercase text-black mt-24 font-bold ml-16 text-xl">
         <div>The only growth focused</div>
