@@ -10,6 +10,7 @@ import Experts from "@/components/experts";
 import Innovation from "@/components/innovation";
 import { MdArrowOutward } from "react-icons/md";
 import { RoboAModel } from "@/components/models/robo";
+import AllModels from "@/components/models/AllModels";
 
 const chakra_petch = Chakra_Petch({
   subsets: ["latin"],
@@ -111,6 +112,55 @@ export default function Home() {
       </div>
       <div className="">
         <Innovation />
+      </div>
+      <div className="relative">
+        <div className="w-full border-y-2 border-gray-400 bg-white text-gray-500">
+          <div className="flex flex-col items-center justify-center w-full">
+            <div className="w-[50rem] flex">
+              <div className="h-[25rem] w-[25rem] border-l-2 border-b-2 border-gray-400 p-16">
+                <div>
+                  JOIN OUR
+                  <br />
+                  <span className=" text-4xl font-bold flex text-black  items-center">
+                    TELEGRAM <MdArrowOutward />
+                  </span>
+                </div>
+              </div>
+              <div className="h-[25rem] w-[25rem] border-x-2 border-b-2 border-gray-400 p-16">
+                <div>
+                  JOIN OUR
+                  <br />
+                  <span className=" text-4xl font-bold flex text-black  items-center">
+                    LINKEDIN <MdArrowOutward />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="w-[50rem] flex">
+              <div className="h-[25rem] w-[25rem] border-l-2 border-gray-400 p-16 flex items-end">
+                <div>
+                  JOIN OUR
+                  <br />
+                  <span className=" text-4xl font-bold flex text-black  items-center">
+                    TWITTER <MdArrowOutward />
+                  </span>
+                </div>
+              </div>
+              <div className="h-[25rem] w-[25rem] border-x-2 border-gray-400 p-16 flex items-end">
+                <div>
+                  DROP US A MESSAGE
+                  <br />
+                  <span className=" text-4xl font-bold flex text-black items-center">
+                    CONTACT US <MdArrowOutward />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute top-0 left-0 flex justify-center items-center w-full h-full">
+          <AllModels />
+        </div>
       </div>
       <div className="bg-white">
         <div className="py-10 flex justify-between mx-16 text-black text-3xl bg-white">

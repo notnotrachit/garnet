@@ -258,50 +258,7 @@ export default function Innovation() {
         <div>NFT Portfolio</div>
         <div>NFT Portfolio</div>
       </div>
-      <div className="w-full border-y-2 border-gray-400 bg-white text-gray-500">
-        <div className="flex flex-col items-center justify-center w-full">
-          <div className="w-[50rem] flex">
-            <div className="h-[25rem] w-[25rem] border-l-2 border-b-2 border-gray-400 p-16">
-              <div>
-                JOIN OUR
-                <br />
-                <span className=" text-4xl font-bold flex text-black  items-center">
-                  TELEGRAM <MdArrowOutward />
-                </span>
-              </div>
-            </div>
-            <div className="h-[25rem] w-[25rem] border-x-2 border-b-2 border-gray-400 p-16">
-              <div>
-                JOIN OUR
-                <br />
-                <span className=" text-4xl font-bold flex text-black  items-center">
-                  LINKEDIN <MdArrowOutward />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="w-[50rem] flex">
-            <div className="h-[25rem] w-[25rem] border-l-2 border-gray-400 p-16 flex items-end">
-              <div>
-                JOIN OUR
-                <br />
-                <span className=" text-4xl font-bold flex text-black  items-center">
-                  TWITTER <MdArrowOutward />
-                </span>
-              </div>
-            </div>
-            <div className="h-[25rem] w-[25rem] border-x-2 border-gray-400 p-16 flex items-end">
-              <div>
-                DROP US A MESSAGE
-                <br />
-                <span className=" text-4xl font-bold flex text-black items-center">
-                  CONTACT US <MdArrowOutward />
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </>
   );
 }

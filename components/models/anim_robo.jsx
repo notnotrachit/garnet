@@ -4,6 +4,7 @@ import React, { use, useRef } from "react";
 import { useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 import { useFrame } from '@react-three/fiber'
+import * as THREE from 'three'
 
 export function RoboModel(props) {
   const group = useRef();
@@ -17,8 +18,8 @@ export function RoboModel(props) {
   // play all animations
   useEffect(() => {
     for (const action in actions) {
+      actions[action].setLoop(THREE.LoopPingPong);
       actions[action].play();
-      console.log("action")
     }
 
   }, [actions]);
