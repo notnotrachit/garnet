@@ -34,7 +34,7 @@ export default function Experts() {
       </div>
       <div className="w-full h-full flex">
         <div className="flex">
-          <div className="mt-16 ml-24 relative py-4 px-8 text-white text-5xl font-bold text-stroke-2 tracking-[0.4rem] [text-shadow:_5px_15px_10px_rgb(0_0_0_/_50%)]">
+          <div className="mt-16 ml-4 md:ml-24 relative py-4 px-4 md:px-8 text-white text-2xl md:text-5xl font-bold text-stroke-2 tracking-[0.4rem] [text-shadow:_5px_15px_10px_rgb(0_0_0_/_50%)]">
             OUR EXPERTS
             <br />
             <span className="ml-16 text-fill-black text-stroke-white">

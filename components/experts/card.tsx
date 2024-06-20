@@ -28,22 +28,34 @@ export default function ExpertCard(props: {
 
   return (
     <div
-      className="flex w-full h-full justify-evenly opacity-0 items-center absolute"
+      className="flex w-full h-full justify-center md:justify-evenly opacity-0 items-center absolute flex-wrap-reverse md:flex-nowrap pt-36 md:pt-0 px-2 md:px-0"
       id={"expert_" + props.enum}
     >
       <div className="relative">
-        <div className="absolute -top-16 -left-20">
-          <Image src="/ball.svg" height={200} width={200} alt="ball" />
+        <div className="absolute -top-16 -left-20 -mt-16 md:mt-0">
+          <Image
+            src="/ball.svg"
+            height={200}
+            width={200}
+            alt="ball"
+            className="scale-75 md:scale-100"
+          />
         </div>
         <div className="absolute -bottom-16 -right-20">
-          <Image src="/ball.svg" height={200} width={200} alt="ball" />
+          <Image
+            src="/ball.svg"
+            height={200}
+            width={200}
+            alt="ball"
+            className="scale-75 md:scale-100"
+          />
         </div>
-        <div className="bg-white/10 w-[46rem] p-16 rounded-xl backdrop-blur-xl transition-none">
+        <div className="bg-white/10 w-full md:w-[46rem] p-4 md:p-16 rounded-xl backdrop-blur-xl transition-none -mt-16 md:mt-0">
           <div
             id="text_box"
             className="opacity-0 transition-all ease-in-out duration-[1500ms]"
           >
-            <div className="text-4xl font-bold text-center mb-16">
+            <div className="text-4xl font-bold text-center mb-4 md:mb-16">
               {props.name}
               <br />
               <span className="text-2xl font-normal">{props.title}</span>
@@ -62,7 +74,7 @@ export default function ExpertCard(props: {
       </div>
       <div className="flex">
         {/* <Image src="/ball.svg" height={200} width={200} alt="ball" /> */}
-        <div className="h-72 w-72 border-spacing-4 border-2 border-white rounded-full p-2">
+        <div className="h-48 w-48 md:h-72 md:w-72 border-spacing-4 border-2 border-white rounded-full p-2">
           <div
             className="h-full w-full bg-white p-2 rounded-full opacity-0 transition-all ease-in-out duration-[1500ms]"
             id="expert_img"

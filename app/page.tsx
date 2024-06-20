@@ -27,15 +27,22 @@ export default function Home() {
         <VCarusel />
         <div className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0">
           <ul className="list-disc bg-gradient-to-r from-white/80 to-white">
-            <li className="pl-4 md:pl-16 my-1">Customized marketing strategies</li>
-            <li className="pl-4 md:pl-16 my-1">Leverage our extensive network</li>
-            <li className="pl-4 md:pl-16 my-1">Captivating designs and branding</li>
-            <li className="pl-4 md:pl-16 my-1">Captivating designs and branding</li>
+            <li className="pl-4 md:pl-16 my-1">
+              Customized marketing strategies
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Leverage our extensive network
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Captivating designs and branding
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Captivating designs and branding
+            </li>
           </ul>
         </div>
       </div>
       <div></div>
-
 
       <div className="absolute right-0 top-1/4 mt-16 md:mt-0">
         <div className="relative">
@@ -81,8 +88,6 @@ export default function Home() {
         </div>
       </div>
 
-
-      
       <div className="uppercase text-black mt-48 md:mt-24 font-bold mx-4 md:mr-0 md:ml-16 md:text-xl">
         <div>The only growth focused</div>
         <div className="bg-gradient-to-b from-[#340272] from-40% via-[#714E9C] via-58%  to-[#C1B2D4] bg-clip-text text-4xl md:text-5xl font-bold text-transparent md:w-[30rem] text-right">
@@ -96,7 +101,6 @@ export default function Home() {
           in web3 marketing strategies
         </div>
       </div>
-
 
       <div className="flex">
         <div className="mt-16 ml-4 md:ml-24 relative py-4 px-8 text-black text-3xl md:text-5xl font-bold text-fill-transparent text-stroke-black text-stroke-2 tracking-[0.7rem] [text-shadow:_5px_15px_10px_rgb(0_0_0_/_50%)]">
@@ -115,51 +119,52 @@ export default function Home() {
         <Explore />
       </div>
 
-      
       <div>
         <Experts />
       </div>
+
       <div className="">
         <Innovation />
       </div>
+
       <div className="relative">
         <div className="w-full border-y-2 border-gray-400 bg-white text-gray-500">
           <div className="flex flex-col items-center justify-center w-full">
-            <div className="w-[50rem] flex">
-              <div className="h-[25rem] w-[25rem] border-l-2 border-b-2 border-gray-400 p-16">
+            <div className="w-[20rem] md:w-[50rem] flex">
+              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-l-2 border-b-2 border-gray-400 p-4 md:p-16">
                 <div>
                   JOIN OUR
                   <br />
-                  <span className=" text-4xl font-bold flex text-black  items-center">
+                  <span className="md:text-4xl font-bold flex text-black  items-center">
                     TELEGRAM <MdArrowOutward />
                   </span>
                 </div>
               </div>
-              <div className="h-[25rem] w-[25rem] border-x-2 border-b-2 border-gray-400 p-16">
+              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-x-2 border-b-2 border-gray-400 p-4 md:p-16">
                 <div>
                   JOIN OUR
                   <br />
-                  <span className=" text-4xl font-bold flex text-black  items-center">
+                  <span className=" md:text-4xl font-bold flex text-black  items-center">
                     LINKEDIN <MdArrowOutward />
                   </span>
                 </div>
               </div>
             </div>
-            <div className="w-[50rem] flex">
-              <div className="h-[25rem] w-[25rem] border-l-2 border-gray-400 p-16 flex items-end">
+            <div className="w-[20rem] md:w-[50rem] flex">
+              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-l-2 border-gray-400 p-4 md:p-16 flex items-end">
                 <div>
                   JOIN OUR
                   <br />
-                  <span className=" text-4xl font-bold flex text-black  items-center">
+                  <span className=" md:text-4xl font-bold flex text-black  items-center">
                     TWITTER <MdArrowOutward />
                   </span>
                 </div>
               </div>
-              <div className="h-[25rem] w-[25rem] border-x-2 border-gray-400 p-16 flex items-end">
+              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-x-2 border-gray-400 p-4 md:p-16 flex items-end">
                 <div>
                   DROP US A MESSAGE
                   <br />
-                  <span className=" text-4xl font-bold flex text-black items-center">
+                  <span className=" md:text-4xl font-bold flex text-black items-center">
                     CONTACT US <MdArrowOutward />
                   </span>
                 </div>
@@ -172,7 +177,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-white">
-        <div className="py-10 flex justify-between mx-16 text-black text-3xl bg-white">
+        <div className="py-4 md:py-10 flex justify-between mx-4 md:mx-16 text-black text-xl md:text-3xl bg-white flex-wrap">
           <div>
             <Image
               src={"/final_logo_GC_light 4.png"}
@@ -181,48 +186,48 @@ export default function Home() {
               alt="logo"
             />
           </div>
-          <div>Subscribe to be in touch</div>
+          <div className="mt-4 md:mt-0">Subscribe to be in touch</div>
         </div>
-        <div className="mt-10 mb-2 flex mx-16">
+        <div className="md:mt-10 mb-2 flex mx-4 md:mx-16">
           <input
             type="text"
             placeholder="Enter your email"
-            className=" text-black w-full ring-0 active:ring-0 focus:ring-0 focus:outline-none rounded-md text-2xl"
+            className=" text-black w-full ring-0 active:ring-0 focus:ring-0 focus:outline-none rounded-md md:text-2xl"
           />
           <div>
             <button className=" bg-gradient-to-r from-[#8D77CC] to-[#B2F79C] via-[#7BD5FB] p-1 rounded-md group">
-              <div className="bg-white rounded-md px-8 py-2 text-black group-hover:bg-black group-hover:text-white transition-all ease-in-out font-bold">
+              <div className="bg-white rounded-md px-4 md:px-8 py-1 md:py-2 text-black group-hover:bg-black group-hover:text-white transition-all ease-in-out font-bold">
                 Subscribe
               </div>
             </button>
           </div>
         </div>
-        <div className="w-screen h-1 px-16 mb-8 flex justify-center">
+        <div className="w-screen h-1 px-4 md:px-16 mb-8 flex justify-center">
           <div className="w-full h-full  border-t-2 border-black"></div>
         </div>
         <div className="bg-black w-full overflow-y-hidden">
           <div className="flex justify-center">
-            <div className="relative text-[12rem] text-stroke-2 text-center font-bold text-stroke-white text-fill-transparent">
+            <div className="relative text-[5.5rem] md:text-[12rem] text-stroke-2 text-center font-bold text-stroke-white text-fill-transparent">
               <div className="text-stroke-slate-800">
                 GARNET
                 <br />
                 CLUB
               </div>
-              <div className="absolute top-12 left-0">
+              <div className="absolute top-10 md:top-12 left-0">
                 GARNET
                 <br />
                 CLUB
               </div>
             </div>
           </div>
-          <div className="px-48 flex text-xl mb-96 mt-16 uppercase gap-x-28 justify-between">
-            <div className="flex gap-x-28">
+          <div className="px-4 md:px-48 flex text-xl mb-96 mt-16 uppercase gap-x-28  justify-center md:justify-between flex-wrap">
+            <div className="flex md:gap-x-28 justify-between w-full md:w-auto">
               <div>Solutions</div>
               <div>Quick Links</div>
               <div>Legal</div>
             </div>
             <div>
-              <div className="">
+              <div className="mt-16 md:mt-0">
                 <div className="">
                   <span className="flex items-center gap-2">
                     Telegram <MdArrowOutward />
