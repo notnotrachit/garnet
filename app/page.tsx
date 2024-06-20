@@ -23,21 +23,23 @@ export default function Home() {
       <Gridbg />
       <Navbar />
       <Balls />
-      <div className=" mt-52 flex justify-between space-x-72 mx-64">
+      <div className="mt-36 md:mt-52 flex justify-center md:justify-between md:space-x-72 md:mx-64">
         <VCarusel />
-        <div className="text-black font-semibold text-xl">
+        <div className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0">
           <ul className="list-disc bg-gradient-to-r from-white/80 to-white">
-            <li className="pl-16 my-1">Customized marketing strategies</li>
-            <li className="pl-16 my-1">Leverage our extensive network</li>
-            <li className="pl-16 my-1">Captivating designs and branding</li>
-            <li className="pl-16 my-1">Captivating designs and branding</li>
+            <li className="pl-4 md:pl-16 my-1">Customized marketing strategies</li>
+            <li className="pl-4 md:pl-16 my-1">Leverage our extensive network</li>
+            <li className="pl-4 md:pl-16 my-1">Captivating designs and branding</li>
+            <li className="pl-4 md:pl-16 my-1">Captivating designs and branding</li>
           </ul>
         </div>
       </div>
       <div></div>
-      <div className="absolute right-0 top-1/4">
+
+
+      <div className="absolute right-0 top-1/4 mt-16 md:mt-0">
         <div className="relative">
-          <div className="absolute top-0 right-0">
+          <div className="absolute top-0 -right-16 md:right-0 -mr-8 md:mr-0">
             <svg
               width="760"
               height="910"
@@ -73,26 +75,31 @@ export default function Home() {
               </defs>
             </svg>
           </div>
-          <div className="fixed bottom-16 mt-72 right-0 h-96 w-96 flex z-20">
+          <div className="fixed bottom-0 md:bottom-16 mt-72 right-0 h-96 w-96 flex z-20">
             <RoboAModel />
           </div>
         </div>
       </div>
-      <div className="uppercase text-black mt-24 font-bold ml-16 text-xl">
+
+
+      
+      <div className="uppercase text-black mt-48 md:mt-24 font-bold mx-4 md:mr-0 md:ml-16 md:text-xl">
         <div>The only growth focused</div>
-        <div className="bg-gradient-to-b from-[#340272] from-40% via-[#714E9C] via-58%  to-[#C1B2D4] bg-clip-text text-5xl font-bold text-transparent w-[30rem] text-right">
+        <div className="bg-gradient-to-b from-[#340272] from-40% via-[#714E9C] via-58%  to-[#C1B2D4] bg-clip-text text-4xl md:text-5xl font-bold text-transparent md:w-[30rem] text-right">
           WEB 3 MARKETING
           <br />
           AGENCY
         </div>
-        <div className="w-[36rem] text-center mt-24 ml-96 text-2xl">
+        <div className="md:w-[36rem] text-center mt-24 md:ml-96 text-2xl">
           Your go-to specialist
           <br />
           in web3 marketing strategies
         </div>
       </div>
+
+
       <div className="flex">
-        <div className="mt-16 ml-24 relative py-4 px-8 text-black text-5xl font-bold text-fill-transparent text-stroke-black text-stroke-2 tracking-[0.7rem] [text-shadow:_5px_15px_10px_rgb(0_0_0_/_50%)]">
+        <div className="mt-16 ml-4 md:ml-24 relative py-4 px-8 text-black text-3xl md:text-5xl font-bold text-fill-transparent text-stroke-black text-stroke-2 tracking-[0.7rem] [text-shadow:_5px_15px_10px_rgb(0_0_0_/_50%)]">
           TES<span className="text-fill-black">TIMON</span>IAL
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="absolute top-0 right-0 border-t-4 border-r-4 border-black w-8 h-8 rounded-tr-md"></div>
@@ -100,13 +107,15 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="my-36 h-96">
+      <div className="my-36 md:h-96">
         <Testimonial />
       </div>
 
       <div className="my-28 py-28">
         <Explore />
       </div>
+
+      
       <div>
         <Experts />
       </div>

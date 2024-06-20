@@ -20,7 +20,7 @@ const chakra = Chakra_Petch({
 
 
 export default function CaruselElement(props: { content: string, init_pos: number}) {
-      let initial_class = " w-[36rem] shadow-2xl text-2xl transition-all ease-in-out bg-white text-black text-center py-5 font-bold rounded-[16px]";
+      let initial_class = " w-[20rem] md:w-[36rem] shadow-2xl md:text-2xl transition-all ease-in-out bg-white text-black text-center py-3 md:py-5 font-bold rounded-[16px]";
       if (props.init_pos === 0) {
         initial_class += " translate-0 scale-100 opacity-100";
       }
