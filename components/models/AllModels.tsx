@@ -44,10 +44,10 @@ export default function AllModels() {
         <div id="model1" className="w-full h-full transition-all absolute">
           <AnimModel1 />
         </div>
-        <div id="model2" className="opacity-0 w-full h-full transition-all absolute">
+        <div id="model2" className="opacity-0 w-full h-full transition-all absolute mt-24">
           <AnimModel2 />
         </div>
-        <div id="model3" className="opacity-0 w-full h-full transition-all absolute">
+        <div id="model3" className="opacity-0 w-full h-full transition-all absolute mt-24">
           <AnimModel3 />
         </div>
       </div>

@@ -82,7 +82,7 @@ export default function Home() {
               </defs>
             </svg>
           </div>
-          <div className="fixed bottom-0 md:bottom-16 mt-72 right-0 h-96 w-96 flex z-20">
+          <div className="fixed bottom-0 md:bottom-16 mt-72 right-0 h-[30rem] w-[30rem] flex z-20 pt-16">
             <RoboAModel />
           </div>
         </div>
@@ -247,3 +247,4 @@ export default function Home() {
     </div>
   );
 }
+  

@@ -28,7 +28,7 @@ export default function ExpertCard(props: {
 
   return (
     <div
-      className="flex w-full h-full justify-center md:justify-evenly opacity-0 items-center absolute flex-wrap-reverse md:flex-nowrap pt-36 md:pt-0 px-2 md:px-0"
+      className="flex w-full h-full justify-center md:justify-evenly opacity-0 items-center absolute flex-wrap-reverse md:flex-nowrap pt-36 md:mt-16 px-2 md:px-0"
       id={"expert_" + props.enum}
     >
       <div className="relative">
