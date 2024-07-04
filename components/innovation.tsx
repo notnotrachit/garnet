@@ -120,13 +120,13 @@ export default function Innovation() {
   return (
     <>
       <div>
-        <Marquee gradient={false} speed={70} autoFill={true}>
+        {/* <Marquee gradient={false} speed={70} autoFill={true}>
           <div className="my-28 text-4xl  md:text-6xl text-black font-bold px-10">
             EXPLORE OUR INNOVATION
           </div>
-        </Marquee>
+        </Marquee> */}
       </div>
-      <div className="text-black flex justify-center text-4xl md:text-5xl font-black text-center p-2 md:p-0">
+      <div className="mt-16 text-black flex justify-center text-4xl md:text-5xl font-black text-center p-2 md:p-0">
         <div className="px-16 py-4 relative rounded-md">
           <div>
             Explore our{" "}
@@ -212,7 +212,7 @@ export default function Innovation() {
         />
       </Marquee>
 
-      <div className="mt-16 flex justify-evenly md:justify-between text-gray-400 text-xl md:text-2xl font-bold mx-2 md:mx-16">
+      {/* <div className="mt-16 flex justify-evenly md:justify-between text-gray-400 text-xl md:text-2xl font-bold mx-2 md:mx-16">
         <div>Founders Portfolio</div>
         <div>Founders Portfolio</div>
         <div className="hidden md:flex">Founders Portfolio</div>
@@ -224,7 +224,7 @@ export default function Innovation() {
         <div>NFT Portfolio</div>
         <div className="hidden md:flex">NFT Portfolio</div>
         <div className="hidden md:flex">NFT Portfolio</div>
-      </div>
+      </div> */}
 
       <Marquee
         className="my-16 flex overflow-x-auto no-scrollbar"

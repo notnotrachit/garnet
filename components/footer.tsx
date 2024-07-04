@@ -15,7 +15,7 @@ export default function Footer() {
                 method: "POST",
             }
         );
-        setEmail("");
+        setEmail("");   
     }
 
     return (
