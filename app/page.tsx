@@ -26,19 +26,102 @@ export default function Home() {
       <Balls />
       <div className="mt-36 md:mt-52 flex justify-center md:justify-between md:space-x-72 md:mx-64">
         <VCarusel />
-        <div className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0">
+        <div
+          className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0 hidden heading_content"
+          id="design_content"
+        >
           <ul className="list-disc bg-gradient-to-r from-white/80 to-white">
             <li className="pl-4 md:pl-16 my-1">
-              Customized marketing strategies
+              Create distinctive Web3 brand identities
             </li>
             <li className="pl-4 md:pl-16 my-1">
-              Leverage our extensive network
+              Develop eye-catching token designs
             </li>
             <li className="pl-4 md:pl-16 my-1">
-              Captivating designs and branding
+              Craft blockchain-inspired visual assets
             </li>
             <li className="pl-4 md:pl-16 my-1">
-              Captivating designs and branding
+              Design user-friendly dApp interfaces
+            </li>
+          </ul>
+        </div>
+
+        <div
+          className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0 hidden heading_content"
+          id="marketing_content"
+        >
+          <ul className="list-disc bg-gradient-to-r from-white/80 to-white">
+            <li className="pl-4 md:pl-16 my-1">
+              Develop Web3-focused marketing strategies
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Create engaging crypto-native content
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Implement token-incentivized campaigns
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Optimize for on-chain analytics
+            </li>
+          </ul>
+        </div>
+
+        <div
+          className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0 hidden heading_content"
+          id="pr_content"
+        >
+          <ul className="list-disc bg-gradient-to-r from-white/80 to-white">
+            <li className="pl-4 md:pl-16 my-1">
+              Connect with crypto thought leaders
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Organize AMAs with blockchain experts
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Secure features in Web3 publications
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Manage community-driven PR initiatives
+            </li>
+          </ul>
+        </div>
+
+        <div
+          className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0 hidden heading_content"
+          id="community_content"
+        >
+          <ul className="list-disc bg-gradient-to-r from-white/80 to-white">
+            <li className="pl-4 md:pl-16 my-1">
+              Set up and moderate Discord communities
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Implement token-based governance systems
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Create incentive structures for participation
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Develop community-driven product roadmaps
+            </li>
+          </ul>
+        </div>
+
+        <div
+          className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0 heading_content"
+          id="traffic_content"
+        >
+          <ul className="list-disc bg-gradient-to-r from-white/80 to-white">
+            <li className="pl-4 md:pl-16 my-1">
+              Optimize for Web3 search visibility
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Implement cross-chain marketing strategies
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Drive traffic through DeFi platforms
+            </li>
+            <li className="pl-4 md:pl-16 my-1">
+              Utilize decentralized ad networks
             </li>
           </ul>
         </div>
