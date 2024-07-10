@@ -141,12 +141,12 @@ export default function Innovation() {
         </div>
       </div>
 
-      <div className="my-16 flex justify-evenly md:justify-between text-gray-400 text-xl md:text-2xl font-bold mx-2 md:mx-16">
+      {/* <div className="my-16 flex justify-evenly md:justify-between text-gray-400 text-xl md:text-2xl font-bold mx-2 md:mx-16">
         <div>Founders Portfolio</div>
         <div>Founders Portfolio</div>
         <div className="hidden md:flex">Founders Portfolio</div>
         <div className="hidden md:flex">Founders Portfolio</div>
-      </div>
+      </div> */}
       <Marquee
         className="my-16 flex overflow-x-auto no-scrollbar"
         gradient={false}
@@ -252,12 +252,12 @@ export default function Innovation() {
           category="Avatars"
         />
       </Marquee>
-      <div className="my-16 mb-32 flex justify-evenly md:justify-between text-gray-400 text-xl md:text-2xl font-bold mx-2 md:mx-16">
+      {/* <div className="my-16 mb-32 flex justify-evenly md:justify-between text-gray-400 text-xl md:text-2xl font-bold mx-2 md:mx-16">
         <div>NFT Portfolio</div>
         <div>NFT Portfolio</div>
         <div className="hidden md:flex">NFT Portfolio</div>
         <div className="hidden md:flex">NFT Portfolio</div>
-      </div>
+      </div> */}
     </>
   );
 }

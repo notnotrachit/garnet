@@ -20,7 +20,7 @@ const chakra_petch = Chakra_Petch({
 
 export default function Home() {
   return (
-    <div className={chakra_petch.className}>
+    <div className={chakra_petch.className + " overflow-x-hidden"}>
       <Gridbg />
       <Navbar />
       <Balls />
@@ -45,9 +45,9 @@ export default function Home() {
       </div>
       <div></div>
 
-      <div className="absolute right-0 top-1/4 mt-16 md:mt-0">
+      <div className="absolute right-0 top-1/4 mt-16 md:mt-0 w-screen">
         <div className="relative">
-          <div className="absolute top-0 -right-16 md:right-0 -mr-8 md:mr-0">
+          <div className="absolute top-0 -right-0 md:right-0 -mr-8 md:mr-0 overflow-x-clip">
             <svg
               width="760"
               height="910"
@@ -83,7 +83,7 @@ export default function Home() {
               </defs>
             </svg>
           </div>
-          <div className="fixed bottom-0 md:bottom-16 mt-72 right-0 h-[30rem] w-[30rem] flex z-20 pt-16">
+          <div className="fixed bottom-0 md:bottom-16 mt-72 right-0 h-[30rem] w-screen md:w-[30rem] flex z-20 pt-16">
             <RoboAModel />
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex">
+      {/* <div className="flex">
         <div className="mt-16 ml-4 md:ml-24 relative py-4 px-8 text-black text-3xl md:text-5xl font-bold text-fill-transparent text-stroke-black text-stroke-2 tracking-[0.7rem] [text-shadow:_5px_15px_10px_rgb(0_0_0_/_50%)]">
           TES<span className="text-fill-black">TIMON</span>IAL
           <div className="absolute inset-0 flex items-center justify-center">
@@ -114,15 +114,15 @@ export default function Home() {
       </div>
       <div className="my-36 md:h-96">
         <Testimonial />
-      </div>
+      </div> */}
 
       <div className="my-28 py-28">
         <Explore />
       </div>
 
-      <div>
+      {/* <div>
         <Experts />
-      </div>
+      </div> */}
 
       <div className="">
         <Innovation />
