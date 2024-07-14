@@ -5,7 +5,6 @@ import InnovationCard from "./innovation/card";
 import { MdArrowOutward } from "react-icons/md";
 
 export default function Innovation() {
-
   // useEffect(() => {
   //   let intervalId: NodeJS.Timeout | null = null;
   //   let intervalId2: NodeJS.Timeout | null = null;
@@ -30,7 +29,7 @@ export default function Innovation() {
   //   //         scrolldir1
   //   //       );
   //   //       if (scroll.scrollLeft > scroll.scrollWidth - scroll.clientWidth) {
-  //   //         scrolldir1=-1;  
+  //   //         scrolldir1=-1;
   //   //         console.log("setted scroll to -1", scrolldir1);
   //   //       }
   //   //       if (scroll.scrollLeft < 0) {
@@ -186,7 +185,7 @@ export default function Innovation() {
         className="my-16 flex overflow-x-auto no-scrollbar"
       >
         <InnovationCard
-          name="Cosmix Guild"
+          name="Cosmic Guild"
           image="cosmic_guild"
           category="Cosmic"
         />
