@@ -231,7 +231,7 @@ export default function Innovation() {
         speed={70}
         autoFill={true}
       >
-        <InnovationCard name="Bayn" image="bayc" category="Ape Nfts" />
+        <InnovationCard name="Bayc" image="bayc" category="Ape Nfts" />
         <InnovationCard
           name="The Otherside"
           image="otherside"
