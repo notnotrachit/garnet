@@ -24,7 +24,7 @@ export default function Home() {
       <Gridbg />
       <Navbar />
       <Balls />
-      <div className="mt-36 md:mt-52 flex justify-center md:justify-between md:space-x-72 md:mx-48">
+      <div className="mt-36 md:mt-52 flex justify-center md:justify-between md:space-x-72 md:mx-48 md:mr-14">
         <VCarusel />
         <div
           className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0 hidden heading_content"
@@ -118,11 +118,11 @@ export default function Home() {
               Implement cross-chain marketing strategies
             </li>
             <li className="pl-4 md:pl-16 my-1">
-              Drive traffic through DeFi platforms  
+              Drive traffic through DeFi platforms
             </li>
             <li className="pl-4 md:pl-16 my-1">
               Utilize decentralized ad networks
-            </li> 
+            </li>
           </ul>
         </div>
       </div>
@@ -215,43 +215,50 @@ export default function Home() {
         <div className="w-full border-y-2 border-gray-400 bg-white text-gray-500">
           <div className="flex flex-col items-center justify-center w-full">
             <div className="w-[20rem] md:w-[50rem] flex">
-              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-l-2 border-b-2 border-gray-400 p-4 md:p-16">
-                <div>
-                  JOIN OUR
-                  <br />
-                  <span className="md:text-4xl font-bold flex text-black  items-center">
-                    TELEGRAM <MdArrowOutward />
-                  </span>
-                </div>
+              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-l-2 border-gray-400 p-4 md:p-16 flex justify-center items-center">
+                <button className=" bg-gradient-to-r from-[#8D77CC] to-[#B2F79C] via-[#7BD5FB] p-[0.18rem] rounded-md group">
+                  <div className="rounded-md py-2 w-28 md:w-40 bg-black text-white transition-all ease-in-out font-semibold text-md md:text-2xl">
+                    Telegram
+                  </div>
+                </button>
               </div>
-              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-x-2 border-b-2 border-gray-400 p-4 md:p-16">
-                <div>
-                  JOIN OUR
-                  <br />
-                  <span className=" md:text-4xl font-bold flex text-black  items-center">
-                    LINKEDIN <MdArrowOutward />
-                  </span>
-                </div>
+              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-x-2 border-gray-400 p-4 md:p-16 flex justify-center items-center">
+                <button className=" bg-gradient-to-r from-[#8D77CC] to-[#B2F79C] via-[#7BD5FB] p-[0.18rem] rounded-md group">
+                  <div className="rounded-md py-2 w-28 md:w-40 bg-black text-white transition-all ease-in-out font-semibold text-md md:text-2xl">
+                    Twitter
+                  </div>
+                </button>
               </div>
             </div>
-            <div className="w-[20rem] md:w-[50rem] flex">
-              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-l-2 border-gray-400 p-4 md:p-16 flex items-end">
-                <div>
-                  JOIN OUR
-                  <br />
-                  <span className=" md:text-4xl font-bold flex text-black  items-center">
-                    TWITTER <MdArrowOutward />
-                  </span>
-                </div>
+            <div className="w-[20rem] md:w-[50rem] flex h-[10rem] md:h-[25rem] border-x-2 border-gray-400 relative">
+              {/* <div className="absolute inline-block w-0 h-0 border-solid border-t-0 border-r-0 border-l-[264px] border-b-[264px] border-l-transparent border-r-transparent border-t-transparent border-b-blue-500"></div>
+               */}
+              <div className="absolute bottom-0 left-0 w-[10rem] md:w-[25rem] h-[10rem] md:h-[25rem]">
+                <svg
+                  viewBox="0 0 763 763"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="stroke-gray-400"
+                >
+                  <path d="M763 1L1 763" stroke-width="4" />
+                </svg>
               </div>
-              <div className="h-[10rem] md:h-[25rem] w-[10rem] md:w-[25rem] border-x-2 border-gray-400 p-4 md:p-16 flex items-end">
-                <div>
-                  DROP US A MESSAGE
-                  <br />
-                  <span className=" md:text-4xl font-bold flex text-black items-center">
-                    CONTACT US <MdArrowOutward />
-                  </span>
-                </div>
+              <div className="absolute bottom-0 right-0 w-[10rem] md:w-[25rem] h-[10rem] md:h-[25rem] rotate-90 -mr-0.5">
+                <svg
+                  viewBox="0 0 763 763"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="stroke-gray-400"
+                >
+                  <path d="M763 1L1 763" stroke-width="4" />
+                </svg>
+              </div>
+              <div className="absolute bottom-0 w-full flex justify-center items-center h-[10rem] md:h-[25rem] pt-16">
+                <button className=" bg-gradient-to-r from-[#8D77CC] to-[#B2F79C] via-[#7BD5FB] p-[0.18rem] rounded-md group">
+                  <div className="rounded-md py-2 w-28 md:w-40 bg-black text-white transition-all ease-in-out font-semibold text-md md:text-2xl">
+                    Contact Us
+                  </div>
+                </button>
               </div>
             </div>
           </div>
