@@ -24,7 +24,7 @@ export default function Home() {
       <Gridbg />
       <Navbar />
       <Balls />
-      <div className="mt-36 md:mt-52 flex justify-center md:justify-between md:space-x-72 md:mx-64">
+      <div className="mt-36 md:mt-52 flex justify-center md:justify-between md:space-x-72 md:mx-48">
         <VCarusel />
         <div
           className="mt-36 md:mt-0 text-black font-semibold md:text-xl ml-4 md:ml-0 hidden heading_content"
@@ -118,11 +118,11 @@ export default function Home() {
               Implement cross-chain marketing strategies
             </li>
             <li className="pl-4 md:pl-16 my-1">
-              Drive traffic through DeFi platforms
+              Drive traffic through DeFi platforms  
             </li>
             <li className="pl-4 md:pl-16 my-1">
               Utilize decentralized ad networks
-            </li>
+            </li> 
           </ul>
         </div>
       </div>
