@@ -14,7 +14,7 @@ export function Model2(props) {
 
   }, [actions]);
   return (
-    <group ref={group} {...props} dispose={null}>
+    <group ref={group} {...props} dispose={null} scale={1.2}>
       <group name="Scene">
         <group
           name="Sketchfab_model001"
