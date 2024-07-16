@@ -196,11 +196,11 @@ export default function Innovation() {
         />
         <InnovationCard name="Linch" image="linch" category="Network" />
         <InnovationCard name="Ignition" image="ignition" category="Software" />
-        <InnovationCard name="Nakamoto" image="nakamoto" category="Bitcoin" />
+        <InnovationCard name="Nakamoto" image="nakamoto" category="Gaming" />
         <InnovationCard name="Pirate" image="pirate" category="Infra Network" />
         <InnovationCard name="Trace" image="trace" category="Blockchain" />
         <InnovationCard
-          name="Easy Fit"
+          name="EasyFi"
           image="easy_fit"
           category="Blockchain World"
         />
