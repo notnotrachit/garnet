@@ -186,7 +186,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className="flex">
+      <div className="flex">
         <div className="mt-16 ml-4 md:ml-24 relative py-4 px-8 text-black text-3xl md:text-5xl font-bold text-fill-transparent text-stroke-black text-stroke-2 tracking-[0.7rem] [text-shadow:_5px_15px_10px_rgb(0_0_0_/_50%)]">
           TES<span className="text-fill-black">TIMON</span>IAL
           <div className="absolute inset-0 flex items-center justify-center">
@@ -197,15 +197,15 @@ export default function Home() {
       </div>
       <div className="my-36 md:h-96">
         <Testimonial />
-      </div> */}
+      </div>
 
       <div className="my-28 py-28">
         <Explore />
       </div>
 
-      {/* <div>
+      <div>
         <Experts />
-      </div> */}
+      </div>
 
       <div className="">
         <Innovation />
