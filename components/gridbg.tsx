@@ -2,7 +2,7 @@
 
 export default function Gridbg() {
     return (
-      <div className="fixed left-0 top-0 w-full -z-10 h-full">
+      <div className="fixed left-0 top-0 w-full -z-10 h-full overflow-x-clip">
         <div className="flex justify-center">
           <div className="border-x border-black/20 w-1/2 h-full absolute"></div>
           <div className="border-x border-black/20 w-1/4 h-full absolute mx-auto mt-16"></div>

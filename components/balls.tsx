@@ -54,7 +54,7 @@ export default function Balls(){
           alt="ball"
           width={85}
           height={85}
-          className="absolute top-[32rem] left-[36rem]"
+          className="absolute top-[32rem] left-[36rem] hidden"
         />
         <Image
           src="/ball.svg"

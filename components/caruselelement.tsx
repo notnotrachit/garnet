@@ -19,10 +19,11 @@ const chakra = Chakra_Petch({
   // }, 6000);
 
 
-export default function CaruselElement(props: { content: string, init_pos: number}) {
+export default function CaruselElement(props: { content: string, init_pos: number, ch_head: any}) {
       let initial_class = " w-[20rem] md:w-[36rem] shadow-2xl md:text-2xl transition-all ease-in-out bg-white text-black text-center py-3 md:py-5 font-bold rounded-[16px]";
       if (props.init_pos === 0) {
         initial_class += " translate-0 scale-100 opacity-100";
+        
       }
       else if (props.init_pos === 1) {
         initial_class += " -translate-y-full scale-75 opacity-75";
@@ -89,10 +90,12 @@ export default function CaruselElement(props: { content: string, init_pos: numbe
               const new_class = orig_class.replace("translate-y-full", "translate-0").replace("scale-75", "scale-100").replace("opacity-75", "opacity-100");
               element.className = new_class;
               pos = 0;
+              props.ch_head(props.content);
             }
           }, 3000);
         }
         rotate_element();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [props.content, props.init_pos]);
   return (
     <div

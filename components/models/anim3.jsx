@@ -18,7 +18,7 @@ export function Model3(props) {
   }, [actions]);
 
   return (
-    <group ref={group} {...props} dispose={null} scale={[0.5,0.5,0.5]}>
+    <group ref={group} {...props} dispose={null} scale={[0.7,0.7,0.7]}>
       <group name="Scene">
         <mesh
           name="Cube017"

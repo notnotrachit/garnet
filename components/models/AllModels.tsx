@@ -34,7 +34,7 @@ export default function AllModels() {
 
         intervalId = setInterval(() => {
             changeModel();
-        }, 5000);
+        }, 3000);
 
     }, []);
 

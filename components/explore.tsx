@@ -1,6 +1,7 @@
 import { LuTextSelect } from "react-icons/lu";
 import { FiExternalLink } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaTelegramPlane } from "react-icons/fa";
 
 export default function Explore() {
   return (
@@ -33,11 +34,11 @@ export default function Explore() {
 
                     <div className="flex-col justify-center items-center gap-2 space-y-2">
                       <div className="flex justify-center items-center gap-2 text-xl">
-                        <LuTextSelect />
-                        Blogs
+                        <FaTelegramPlane />
+                        Telegram
                       </div>
                       <div className="flex justify-center items-center gap-2">
-                        Read <FiExternalLink />
+                        Join <FiExternalLink />
                       </div>
                     </div>
                   </div>
@@ -49,7 +50,7 @@ export default function Explore() {
 
         <div className="h-36 relative -mt-1 ml-1 md:mt-0 md:-ml-1">
           <div className="flex items-center h-full">
-            <div className="absolute top-0 left-0 md:h-[4.5rem] h-36 border-y-4 md:border-b-0 border-l-4 md:border-x-4 border-[#340272] rounded-l-3xl md:rounded-bl-none md:rounded-t-3xl md:w-full w-56"></div>
+            <div className="absolute top-0 left-0 md:h-[4.5rem] h-36 border-y-4 md:border-b-0 border-l-4 md:border-t-4 border-[#340272] rounded-l-3xl md:rounded-bl-none md:rounded-tl-3xl md:w-full w-56"></div>
             <div className="mx-16">
               <div className="w-56 border-2 border-black h-28 rounded-md p-2">
                 <div className="w-full h-full bg-black rounded-md p-2">
@@ -74,8 +75,8 @@ export default function Explore() {
             </div>
           </div>
         </div>
-
-        <div className="h-36 relative md:-ml-1 -mt-1 md:mt-0">
+{/* 
+        <div className="h-36 relative md:-ml-1   -mt-1 md:mt-0">
           <div className="flex items-center h-full">
             <div className="absolute md:top-[4.5rem] right-0 md:h-[4.5rem] h-36 border-y-4 md:border-t-0 border-r-4 md:border-r-0 md:border-l-4 border-[#340272] rounded-r-3xl md:rounded-r-none md:rounded-bl-3xl w-36 md:w-full"></div>
             <div className="mx-16">
@@ -101,17 +102,17 @@ export default function Explore() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="h-36 relative md:-ml-1 -mt-1 md:mt-0 md:hidden">
           <div className="flex items-center h-full">
-            <div className="absolute right-0 h-36 border-b-4 border-[#340272] rounded-r-3xl md:rounded-r-none md:rounded-bl-3xl w-96 md:w-full"></div>
+            <div className="absolute -right-16 h-36 border-b-4 border-[#340272] md:rounded-r-none md:rounded-bl-3xl w-96 md:w-full"></div>
           </div>
         </div>
 
         <div className="h-36 w-full relative -ml-1 hidden md:flex">
           <div className="flex items-center h-full">
-            <div className="absolute top-[4.5rem] left-0 h-[4.5rem] border-b-4 border-[#340272] w-full"></div>
+            <div className="absolute top-0 left-0 h-[4.5rem] border-t-4 border-[#340272] w-full"></div>
           </div>
         </div>
       </div>
